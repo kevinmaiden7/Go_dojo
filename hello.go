@@ -12,7 +12,7 @@ func main(){
 	fmt.Println("---")
 
 	const base = 2
-	fmt.Println("Base:", base)
+	fmt.Println("Powers of", base)
 	for i := 0; i < 13; i++	{
 		fmt.Printf("%.1f", math.Pow(float64(base), float64(i)))
 		fmt.Println("")
